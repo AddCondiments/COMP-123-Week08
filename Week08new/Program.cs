@@ -11,6 +11,11 @@ namespace Week08new
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
+            Console.WriteLine("^_^_^_^_^_^_^\n");
+            Console.WriteLine();
+
+            Person person = new Person("Matthew",24);
+            person.Talks();
         }
     }
 }

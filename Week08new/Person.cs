@@ -16,7 +16,7 @@ namespace Week08new
         private string _name;
         private int _age;
         //Public properties
-        public string name {
+        public string Name {
             get
             {
                 return this._name;
@@ -36,6 +36,18 @@ namespace Week08new
                 this._age = value;
             }
         }
+
+        //Constructor
+
+        public Person(string name, int age)
+        {
+            this.Name = name;
+            this.Age = age;
+        }
+
+        //Public Methods
+
+
         /// <summary>
         /// This following method will enable people to talk.
         /// </summary>
